@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '8.0.100'
+          dotnet-version: '8.0.100' 
 
       - name: Cache NuGet packages
         uses: actions/cache@v2
@@ -34,11 +34,8 @@ jobs:
       - name: Clean
         run: dotnet clean
 
-      - name: Set Platform
-        run: echo "DOTNET_CLI_TELEMETRY_OPTOUT=1" >> $GITHUB_ENV
-
       - name: Build
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release /p:GenerateResourceNeverLockTypeAssemblies=true
 
       - name: Test
         run: dotnet test --configuration Release
