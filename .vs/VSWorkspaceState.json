@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\LoginPage.xaml.cs",
+  "SelectedNode": "\\.github\\workflows\\build-test.yml",
   "PreviewInSolutionExplorer": false
 }
