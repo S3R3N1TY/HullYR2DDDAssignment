@@ -35,7 +35,7 @@ jobs:
         run: dotnet clean
 
       - name: Build
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release --platform:x64
 
       - name: Test
         run: dotnet test --configuration Release
