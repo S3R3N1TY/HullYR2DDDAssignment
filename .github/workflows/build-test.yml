@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '8.0.100' 
+          dotnet-version: '8.0.100'
 
       - name: Cache NuGet packages
         uses: actions/cache@v2
@@ -35,7 +35,7 @@ jobs:
         run: dotnet clean
 
       - name: Build
-        run: dotnet build --configuration Release /p:GenerateResourceNeverLockTypeAssemblies=true
+        run: dotnet build --configuration Release --platform x64 /p:GenerateResourceNeverLockTypeAssemblies=true
 
       - name: Test
         run: dotnet test --configuration Release
