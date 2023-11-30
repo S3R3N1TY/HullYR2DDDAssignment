@@ -1,0 +1,30 @@
+﻿STUDENT
+012345
+Student1234
+A.SMITH-2022@hull.ac.uk
+Adam
+Smith
+PERSONAL SUPERVISOR
+678901
+PerSup1234
+M.COLLINS@hull.ac.uk
+Michael
+Collins
+SENIOR TUTOR
+234567
+SenTut1234
+M.PLANCK@hull.ac.uk
+Max
+Planck
+SYSTEMS ADMINISTRATOR
+890123
+SysAdm1234
+ADMIN@hull.ac.uk
+Niels
+Bohr
+STUDENT
+289668
+economics1234
+M.KEYNES-2021@hull.ac.uk
+Milton
+Keynes
